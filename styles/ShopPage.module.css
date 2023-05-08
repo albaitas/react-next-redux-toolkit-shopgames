@@ -1,0 +1,22 @@
+.container {
+  padding: 0 2rem;
+  margin-bottom: 2rem;
+}
+.title {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin: 0 1rem 1rem;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2.5rem 1rem;
+  place-items: center;
+}
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 1rem;
+  }
+}
